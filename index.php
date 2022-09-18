@@ -93,7 +93,10 @@
                                         para estructurar y desplegar una página web y sus contenidos. Por ejemplo, sus
                                         contenidos
                                         podrían ser párrafos, una lista con viñetas, o imágenes y tablas de datos.</p>
-                                    <a href="#" class="btn btn-primary">ir al curso</a>
+                                    
+                                    <a href="curso.php" class="btn btn-primary">
+                                        ir al curso
+                                    </a>
                                 </div>
                             </div>
                         </div>
