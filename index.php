@@ -9,8 +9,7 @@
     <title>Tecno WEB</title>
 
     <link rel="icon" type="image/png" href="imagenes/icono.png" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link href="estilos/bootstrap.css" rel="stylesheet">
 </head>
 
 <body>
@@ -85,9 +84,9 @@
 
                         <div class="col-12 col-md-4">
                             <div class="card">
-                                <img src="imagenes/html.webp" class="card-img-top">
+                                <img src="imagenes/html.png" class="card-img-top">
                                 <div class="card-body">
-                                    <h5 class="card-title">curso completo de html</h5>
+                                    <h5 class="card-title">Curso completo de HTML</h5>
                                     <p class="card-text">El Lenguaje de Marcado de Hipertexto (HTML) es el código que se
                                         utiliza
                                         para estructurar y desplegar una página web y sus contenidos. Por ejemplo, sus
@@ -103,16 +102,16 @@
 
                         <div class="col-12 col-md-4">
                             <div class="card">
-                                <img src="imagenes/css.jpeg" class="card-img-top">
+                                <img src="imagenes/css.png" class="card-img-top">
                                 <div class="card-body">
-                                    <h5 class="card-title">curso completo de CSS</h5>
+                                    <h5 class="card-title">Curso completo de CSS</h5>
                                     <p class="card-text">El código CSS hace la vida más fácil al desarrollador front-end
                                         al separar
                                         las estructura de un documento HTML de su presentación. Dicho de otro modo el
                                         HTML actuaría
                                         como es esqueleto de la web, definiendo su estructura básica, y el CSS añadiría
                                         toda la capa
-                                        de personalización sobre el que la web define su aspecto final.</p>
+                                        de personalización sobre...</p>
                                     <a href="#" class="btn btn-primary">ir al curso</a>
                                 </div>
                             </div>
@@ -120,9 +119,9 @@
 
                         <div class="col-12 col-md-4">
                             <div class="card">
-                                <img src="imagenes/php.webp" class="card-img-top">
+                                <img src="imagenes/php.png" class="card-img-top">
                                 <div class="card-body">
-                                    <h5 class="card-title">curso completo de PHP</h5>
+                                    <h5 class="card-title">Curso completo de PHP</h5>
                                     <p class="card-text">PHP es un lenguaje de programación para desarrollar
                                         aplicaciones y crear
                                         sitios web que conquista cada día más seguidores. Fácil de usar y en constante
@@ -147,9 +146,7 @@
         </div>
     </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
-        crossorigin="anonymous"></script>
+    <script src="javascript/bootstrap.js"></script>
 </body>
 
 </html>
