@@ -108,7 +108,7 @@
                             </div>
                         </div>
 
-                        <div class="col-12 col-md-4">
+                        <!-- <div class="col-12 col-md-4">
                             <div class="card">
                                 <img src="imagenes/css.png" class="card-img-top">
                                 <div class="card-body">
@@ -123,9 +123,9 @@
                                     <a href="#" class="btn btn-primary">ir al curso</a>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
 
-                        <div class="col-12 col-md-4">
+                        <!-- <div class="col-12 col-md-4">
                             <div class="card">
                                 <img src="imagenes/php.png" class="card-img-top">
                                 <div class="card-body">
@@ -139,7 +139,7 @@
                                     <a href="#" class="btn btn-primary">ir al curso </a>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
 
                     <div class="row">
