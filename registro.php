@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Iniciar sesión | Tecno WEB</title>
+  <title>Crear cuenta | Tecno WEB</title>
 
   <link rel="icon" type="image/png" href="imagenes/icono.png" />
   <link href="estilos/bootstrap.css" rel="stylesheet">
@@ -63,20 +63,8 @@
   </nav>
 
   <main class="formulario-iniciarsesion mt-5 w-100 m-auto">
-    <form method="POST" action="login_cuenta.php">
-      <h1 class="h3 mb-3 fw-normal">Iniciar sesión</h1>
-
-      <?php
-        if(isset($_GET['usuario'])) {
-          echo '<div class="alert alert-success">Su cuenta ha sido creada, ya puedes iniciar sesión 🎉</div>';
-        }
-      ?>
-
-      <?php
-        if(isset($_GET['error'])) {
-          echo '<div class="alert alert-danger">Se han encontrado errores, las credenciales no son correctas</div>';
-        }
-      ?>
+    <form method="POST" action="crear_cuenta.php">
+      <h1 class="h3 mb-3 fw-normal">Crear cuenta</h1>
 
       <div class="form-floating">
         <input name="email" type="email" class="form-control">
@@ -84,17 +72,13 @@
       </div>
 
       <div class="form-floating">
-        <input name="password" type="password" class="form-control">
+        <input name="password" type="text" class="form-control">
         <label>contraseña</label>
       </div>
   
-      <button class="w-100 btn btn-lg btn-primary" type="submit">
-        iniciar sesion
+      <button class="w-100 btn btn-lg btn-primary mt-4" type="submit">
+        Registrarse
       </button>
-
-      <p class="mt-4 text-center">
-        ¿No tienes cuenta?, puedes <a href="/registro.php">registrarte aquí</a>
-      </p>
     </form>
   </main>
 

@@ -1,3 +1,6 @@
+<?php
+    session_start();
+?>
 <!DOCTYPE html>
 <html lang="es">
 
@@ -21,6 +24,11 @@
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
                 aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <?php 
+                    if(isset($_SESSION['tecnoweb']['email'])) {
+                        echo $_SESSION['tecnoweb']['email'];
+                    }
+                ?>
                 <span class="navbar-toggler-icon"></span>
             </button>
 
